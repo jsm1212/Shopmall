@@ -21,7 +21,7 @@ public class LoginController {
 	
 	@RequestMapping(value = "main.do", method = RequestMethod.GET)
 	public String main() {
-		logger.info("LoginController login() " + new Date());
+		logger.info("LoginController main() " + new Date());
 		return "main";
 	}
 }
